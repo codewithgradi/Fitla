@@ -630,4 +630,8 @@ footer {
     #newsletter-form {
         flex-direction: column;
     }
+    .footer-bottom{
+        dipslay:flex;
+        flex-direction:column;
+    }
 }
