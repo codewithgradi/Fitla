@@ -570,7 +570,7 @@ footer {
 
 .footer-cta .btn-primary {
     padding: 10px 20px;
-    text-decoration:none;
+    text-decoration:none!important;
 }
 
 /* Responsive Styles */
