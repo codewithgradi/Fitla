@@ -528,7 +528,7 @@ footer {
 
 .footer-links ul li a {
     color: #aaa;
-    text-decoration: none;
+    text-decoration: none!important;
     transition: color 0.3s ease;
     max-width:100%;
 }
