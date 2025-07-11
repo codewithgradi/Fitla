@@ -635,7 +635,7 @@ footer {
         flex-direction:column;
         
     }
-    .footer-bottom a{
-        margin-top:1rem;
+    .footer-bottom>div{
+        padding-top:1rem;
     }
 }
