@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoops League | Basketball Tournaments & Events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Hosting competitive basketball leagues and tournaments. Join as a player, sponsor, or volunteer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">FITLA<span>HOOPS</span></a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>KOTC</h1>
+            <p>ELEVATING THE GAME</p>
+            <div class="cta-buttons">
+                <a href="#events" class="btn-primary">View Events</a>
+                <a href="#connect" class="btn-secondary">Become a Sponsor</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>MORE THAN JUST TOURNAMENTS</h2>
+            <p class="subtitle">We're growing the sport in our community</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span>+
+                    <span class="stat-label">Tournaments</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="100">0</span>+
+                    <span class="stat-label">Players</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span>+
+                    <span class="stat-label">Volunteers</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    The growth of basketball culture in Durban in recent times coupled by the limited activities for the youth
+                     around Durban gave birth to the King of the Court (KOTC) tournament. The first tournament was in 2020 and
+                      progressively, the tournaments have helped the youth showcase and build their skills as well as encourage
+                       them to engage with other basketball players;
+                    thereby helping enhance their networking skills. The tournament has also encouraged diversity and welcomes players from all backgrounds.</p>
+                <p>Partnered with Nike Basketball, Spalding, and local community centers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2>OUR LEGACY IN ACTION</h2>
+            <p class="subtitle">Past tournaments and league highlights</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tournaments">Tournaments</button>
+                <button class="filter-btn" data-filter="leagues">Leagues</button>
+                <button class="filter-btn" data-filter="behind-scenes">Behind Scenes</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Items will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events">
+        <div class="container">
+            <h2>UPCOMING EVENTS</h2>
+            <p class="subtitle">Join the next competition</p>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="upcoming">Upcoming</button>
+                <button class="tab-btn" data-tab="past">Past Events</button>
+            </div>
+
+            <div class="tab-content active" id="upcoming-tab">
+                <div class="events-table">
+                    <div class="event-row header">
+                        <div>Date</div>
+                        <div>Event</div>
+                        <div>Location</div>
+                        <div>Action</div>
+                    </div>
+                    <!-- Events will be populated via JavaScript -->
+                </div>
+            </div>
+
+            <div class="tab-content" id="past-tab">
+                <div class="past-winners">
+                    <!-- Past winners will be populated via JavaScript -->
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h3>STAY IN THE LOOP</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn-primary">Get Updates</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="section connect">
+        <div class="container">
+            <h2>JOIN THE MOVEMENT</h2>
+            <p class="subtitle">Partner with us as a sponsor or volunteer</p>
+            
+            <div class="sponsor-tiers">
+                <div class="tier-card">
+                    <h3>Become A SPONSOR</h3>
+                    <ul>
+                        <li>Logo on jerseys</li>
+                        <li>Social media features</li>
+                        <li>VIP event access</li>
+                    </ul>
+                    <button class="btn-primary">Inquire</button>
+                </div>
+                <div class="tier-card">
+                    <h3>Become a Volunteer</h3>
+                    <ul>
+                        <li>Banner at events</li>
+                        <li>Website mention</li>
+                        <li>2 event tickets</li>
+                    </ul>
+                    <button class="btn-primary">Inquire</button>
+                </div>
+                <div class="tier-card">
+                    <h3>COMMUNITY PARTNER</h3>
+                    <ul>
+                        <li>Volunteer perks</li>
+                        <li>Network opportunities</li>
+                        <li>Event discounts</li>
+                    </ul>
+                    <button class="btn-primary">Inquire</button>
+                </div>
+            </div>
+
+            <div class="volunteer-form">
+                <h3>VOLUNTEER WITH US</h3>
+                <form id="volunteer-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Role</option>
+                            <option>Referee</option>
+                            <option>Photographer</option>
+                            <option>Logistics</option>
+                            <option>First Aid</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Why you want to volunteer"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">HOOP<span>LEAGUE</span></a>
+                    <p>Growing basketball culture since 2010</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#connect">Connect</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HoopLeague. All rights reserved.</p>
+                <div class="footer-cta">
+                    <a href="#events" class="btn-primary">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
