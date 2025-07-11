@@ -530,6 +530,7 @@ footer {
     color: #aaa;
     text-decoration: none;
     transition: color 0.3s ease;
+    max-width:100%;
 }
 
 .footer-links ul li a:hover {
