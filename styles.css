@@ -633,5 +633,9 @@ footer {
     .footer-bottom{
         dipslay:flex;
         flex-direction:column;
+        
+    }
+    .footer-bottom a{
+        padding-top:1rem;
     }
 }
